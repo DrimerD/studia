@@ -1,0 +1,583 @@
+@font-face {
+    font-family: 'good_timesregular';
+    src: url('../fonts/good-times-webfont.woff2') format('woff2'),
+    url('../fonts/good-times-webfont.woff') format('woff'),
+    url('../fonts/good-times-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('../fonts/pt-sans-webfont.woff2') format('woff2'),
+    url('../fonts/pt-sans-webfont.woff') format('woff'),
+    url('../fonts/pt-sans-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gabriola';
+    src: url('../fonts/gabriola_font_download-webfont.woff') format('woff'),
+    url('../fonts/gabriola_font_download-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row{
+    margin: 0;
+}
+.first_page{
+    min-height: 400px;
+}
+.first_page header{
+    max-height: 100px;
+    background: white;
+}
+.first_page header h2{
+    margin: 10px 0 0 0;
+    color: #000000;
+    font-family: good_timesregular, "Times New Roman";
+    text-transform: uppercase;
+}
+.first_page header h4{
+    color: #000000;
+    margin: 0 0 5px 0;
+    font-family: good_timesregular, "Times New Roman";
+    text-transform: uppercase;
+}
+.phone{
+    margin-left: 15%;
+}
+.header-contacts{
+    margin-top: 20px;
+    font-family: pt_sansregular, "Times New Roman";
+    font-size: 20px;
+    max-width: 220px;
+}
+.header-contacts img{
+    margin: 0 1px 4px 0px;
+    max-width: 40px;
+    max-height: 32px;
+}
+.sale{
+    margin: 15px 0 0 0;
+    padding: 4px 25px;
+    height: 40px;
+    font-family: pt_sansregular, "Times New Roman";
+    background: #0539bd;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #0539bd;
+    border-radius: 3px;
+}
+.but{
+    max-width: 240px;
+    text-align: right;
+    box-sizing: content-box;
+}
+.services{
+    background-color: white;
+    text-align: center;
+    font-family: pt_sansregular, "Times New Roman";
+    color: #000000;
+    font-size: 1.1em;
+}
+.services h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.services h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.bord{
+    border: 3px solid #d1d1d1;
+    border-radius: 5px;
+}
+.services span, .price h4{
+    font-weight: bold;
+    font-family: pt_sansregular, "Times New Roman";
+}
+.services h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.services figcaption{
+    font-size: 1em;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.price{
+    margin-top: 20px;
+    text-align: right;
+}
+.text{
+    height: 250px;
+}
+.marging_services{
+    margin-bottom: 70px;
+}
+.about_us{
+    color: white;
+    font-family: good_timesregular, "Times New Roman";
+}
+.about_us h1 {
+    margin-top: 25px;
+    color: white;
+    font-family: pt_sansregular, "Times New Roman";
+}
+.about_us h2:last-of-type{
+    margin-bottom: 50px;
+}
+.about_us h2 span{
+    border-bottom: 3px solid #3c763d;
+}
+.clietns{
+    background-color: white;
+    color: black;
+}
+.clietns h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: good_timesregular, "Times New Roman";
+}
+.clietns h1 span{
+    border-bottom: 2px solid black;
+}
+.clietns figcaption{
+    font-family: pt_sansregular, "Times New Roman";
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+.clietns figure{
+    margin-top: 25px;
+}
+.order .left{
+    color: white;
+    font-family: pt_sansregular, "Times New Roman";
+    font-size: 1.3em;
+}
+.order .left > h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: pt_sansregular, "Times New Roman";
+    font-size: 2.5em;
+}
+.order .left img{
+    max-height: 40px;
+    max-width: 40px;
+    margin: 0 25px 10px 0;
+}
+.order .left > p{
+    margin-bottom: 20px;
+}
+.order .right form{
+    text-align: right;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.order .right form:last-child{
+    text-align: left;
+}
+.order .right .inputs input{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    max-width: 1100px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    font-family: gabriola, "Times New Roman";
+    font-size: 1.5em;
+    color: #a9a9a1;
+    padding: 5px 0 0 50px;
+    border-radius: 2px;
+}
+.order .right .inputs input[type="text"]{
+    background: white url(../images/icons/order/right/name.png) no-repeat left 15px top 8px;
+    background-size: 20px 20px;
+}
+.order .right .inputs input[type="email"]{
+    background: white url(../images/icons/order/right/email.png) no-repeat left 15px top 9px;
+    background-size: 23px 19px;
+}
+.order .right .inputs input[type="tel"]{
+    background: white url(../images/icons/order/right/phone.png) no-repeat left 15px top 8px;
+    background-size: 20px 20px;
+}
+.order .right .inputs textarea{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 1100px;
+    height: 100px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    font-family: gabriola, "Times New Roman";
+    font-size: 1.5em;
+    color: #a9a9a1;
+    padding: 5px 0 0 50px;
+    resize: none;
+    background: white url(../images/icons/order/right/about.png) no-repeat left 15px top 8px;
+    background-size: 20px 20px;
+    border-radius: 2px;
+}
+.order .right  input[type="submit"] {
+    margin: 25px 0 0 0;
+    padding: 0 25px;
+    height: 30px;
+    font-family: pt_sansregular, "Times New Roman";
+    background: #0539bd;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #0539bd;
+    border-radius: 4px;
+}
+.recall-content{
+    margin-bottom: 40px;
+}
+.recall-content > h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.recal-border{
+    border: 2px solid #d1d1d1;
+    border-radius: 3px;
+    position: relative;
+    padding: 15px;
+}
+
+.recal-border:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.recal-border blockquote{
+    height: 400px;
+    border: none;
+    font-family: "Courier New";
+    font-size: 1.3em;
+    padding: 0;
+}
+.recal-border footer{
+    font-family: "Courier New";
+    padding-bottom: 10px;
+}
+.recal-border footer img{
+    max-width: 30px;
+    max-height: 25px;
+    margin: -15.5px 15px 0px 0px;
+}
+.recal-border footer p{
+    font-family: pt_sansregular, "Times New Roman";
+    font-size: 1.3em;
+}
+.bottom_footer{
+    background-color: #6c6962;
+}
+.footer-container{
+    font-family: pt_sansregular, "Times New Roman";
+    font-size: 1.3em;
+    color: white;
+    margin-top: 10px;
+}
+.footer-container span{
+    text-decoration: underline;
+}
+.arrows img{
+    margin: 0 10px 7px 0;
+}
+.social{
+    display: inline-block;
+}
+.social img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.hed > h2{
+    margin-bottom: 20px;
+}
+.contact{
+    text-align: right;
+}
+.contact img{
+    max-height: 25px;
+    max-width: 25px;
+    margin: 0 0 8px 3px;
+}
+.contact-header > h2 {
+    margin-left: 70px;
+}
+.name-company-container{
+    font-family: pt_sansregular, "Times New Roman";
+    font-size: 1em;
+    color: white;
+    background-color: #47443e;
+}
+.name-company-container h4{
+    margin: 0;
+}
+
+.wrraper {
+    position: absolute;
+    right: 70px;
+    top: 90px;
+	width: 350px;
+    background: white;
+    border-radius: 3px;
+    padding: 30px 10px;
+}
+.block .row h3{
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.block .inputs input{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    max-width: 1100px;
+    border: 1px solid #a9a9a1;
+    outline: none;
+    -webkit-appearance: none;
+    font-family: gabriola, "Times New Roman";
+    font-size: 1.5em;
+    color: #a9a9a1;
+    padding: 5px 0 0 50px;
+    border-radius: 2px;
+}
+.block .inputs input[type="text"]{
+    background: white url(../images/icons/order/right/name.png) no-repeat left 15px top 8px;
+    background-size: 20px 20px;
+}
+.block .inputs input[type="email"]{
+    background: white url(../images/icons/order/right/email.png) no-repeat left 15px top 9px;
+    background-size: 23px 19px;
+}
+.block .inputs input[type="tel"]{
+    background: white url(../images/icons/order/right/phone.png) no-repeat left 15px top 8px;
+    background-size: 20px 20px;
+}
+.block .inputs textarea{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 1100px;
+    height: 100px;
+    border: 1px solid #a9a9a1;
+    outline: none;
+    -webkit-appearance: none;
+    font-family: gabriola, "Times New Roman";
+    font-size: 1.5em;
+    color: #a9a9a1;
+    padding: 5px 0 0 50px;
+    resize: none;
+    background: white url(../images/icons/order/right/about.png) no-repeat left 15px top 8px;
+    background-size: 20px 20px;
+    border-radius: 2px;
+}
+.block input[type="submit"] {
+    margin: 25px 0 0 0;
+    padding: 0 25px;
+    height: 30px;
+    font-family: pt_sansregular, "Times New Roman";
+    background: #0539bd;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #0539bd;
+    border-radius: 4px;
+}
+
+.footer-header > h2{
+    margin-right: 0%;
+} 
+.disabled-element{
+    display: none;
+}
+@media screen and (max-width: 1199px) {
+    .phone{
+        margin-left: 0%;
+    }
+    .recal-border:first-child{
+        margin-left: -1px;
+        margin-right: 1px;
+    }
+    .recal-border:last-child{
+        margin-right: -1px;
+        margin-left: 1px;
+    }
+    .order .left > h2{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .header-contacts{
+        font-size: 15px;
+        max-width: 170px;
+    }
+    .but {
+        max-width: 160px;
+    }
+    .sale {
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .header-contacts img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .bord {
+        margin-bottom: 5px;
+    }
+    .recal-border {
+        margin-bottom: 5px;
+    }
+    .recal-border blockquote{
+        height: auto;
+    }
+    .footer-container {
+        font-size: 1em;
+    }
+}
+
+.clr {
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+    .about_us h1{
+        font-size: 1.5em;
+    }
+    .about_us h2{
+        font-size: 1.2em;
+    }
+    .text {
+        height: 180px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .header-contacts {
+        font-size: 13px;
+        max-width: 160px;
+        margin: 12px 0 0 0;
+    }
+    .logo{
+        max-width: 110px;
+    }
+    .sale {
+        margin: 9px 0 0 0;
+        padding: 4px 15px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .header-contacts{
+        margin-left: 10px;
+    }
+    .col-xs-3, .col-sm-3{
+        padding: 0;
+    }
+    .but{
+        text-align: right;
+         max-width: 177px;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .feature_ {
+        width: 100%;
+        display: block;
+    }
+    .feedback_text,.feedback_form {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .sale{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .footer-container{
+        font-size: 1em;
+    }
+    .footer-container {
+        margin: 0;
+    }
+    .social img{
+        margin: 10px
+    }
+    .arrows img{
+        margin: 0 5px 3px 0;
+        max-height: 15px
+    }
+    .arrows{
+        font-size: 0.9em;
+    }
+    .bottom_footer .col-xs-4{
+        padding: 0;
+    }
+    .contact-header{
+        font-size: 0.9em
+    }
+}
+@media screen and (max-width: 550px) {
+    .header-contacts{
+        max-width: 180px;
+    }
+    .first_page .col-xs-3{
+        width: 33%;
+    }
+}
+@media screen and (max-width: 545px)
+{
+    .text {
+        height: 210px;
+    }
+}
+@media screen and (max-width: 425px)
+{
+    .services figcaption {
+        font-size: 1em;
+    }
+    .services .col-xs-5,
+    .services .col-xs-6{
+        padding-left: 0;
+        padding-right: 0;
+	}
+    .displa-none{
+        display: none;
+    }
+    .text {
+        height: 230px;
+    }
+}
+@media screen and (max-width: 993px)
+{
+    .header-contacts img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .header-contacts p{
+        margin: 0 0 10px -10px;
+    }
+    .header-contacts {
+    margin-left: 0;
+    }
+}
